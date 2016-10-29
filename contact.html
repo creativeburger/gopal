@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gopal kumar</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Font Awesome, the iconic font and CSS framework">
+	<meta name="author" content="Dave Gandy">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" href="../assets/ico/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+
+
+<div class="parallax-window" data-parallax="scroll" data-image-src="images/contact.jpg">
+	<nav class="navbar navbar-default inner-navbar navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header page-scroll">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href=""><img src="images/inner-logo.png"></a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="price.html">Price</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="inner-heading">
+			<h1>Contact</h1>
+		</div>
+	</div>
+</div>
+
+	<section id="inner" class="inner contact">
+		<div class="container">
+			<h2 class="text-center">Get in touch</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <section>
+                        <form id="theForm" class="simform" autocomplete="off">
+                            <div class="simform-inner">
+                                <ol class="questions">
+                                    <li>
+                                        <span><label for="q1">What's your Name?</label></span>
+                                        <input id="q1" name="q1" type="text"/>
+                                    </li>
+                                    <li>
+                                        <span><label for="q2">What's your Email?</label></span>
+                                        <input id="q2" name="q2" type="text"/>
+                                    </li>
+                                    <li>
+                                        <span><label for="q3">Your Subject?</label></span>
+                                        <input id="q3" name="q3" type="text"/>
+                                    </li>
+                                    <li>
+                                        <span><label for="q4">Plateform?</label></span>
+                                        <input id="q4" name="q4" type="text" placeholder="Website, App,"/>
+                                    </li>
+                                    <li>
+                                        <span><label for="q5">Budget?</label></span>
+                                        <input id="q5" name="q5" type="text"/>
+                                    </li>
+                                    <li>
+                                        <span><label for="q6">Phone Number?</label></span>
+                                        <input id="q6" name="q6" type="text"/>
+                                    </li>
+                                </ol>
+                                <button class="submit" type="submit">Send answers</button>
+                                <div class="controls">
+                                    <button class="next"></button>
+                                    <div class="progress"></div>
+                                    <span class="number">
+                                        <span class="number-current"></span>
+                                        <span class="number-total"></span>
+                                    </span>
+                                    <span class="error-message"></span>
+                                </div>
+                            </div>
+                            <span class="final-message"></span>
+                        </form>
+                    </section>
+                </div>
+                <div class="col-md-4">
+                    <div class="address">
+                        <span>Address</span>
+                        <p>Nulla gravida enim vitae lacus venenatis interdum. Nam elementum tempus sagittis. Suspendisse quis tempus quam.</p>
+                        <p>info@yourmail.com</p>
+                        <p>www.yourwebsite.com</p>
+                        <p>+91 123-456-7890</p>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</section>
+
+    <section id="map" class="map">
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:400px;width:100%;"><div id="gmap_canvas" style="height:400px;width:100%;"><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="" id="get-map-data"></a></div></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(30.900965,75.85727580000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(30.900965, 75.85727580000002)});infowindow = new google.maps.InfoWindow({content:"<b>Zaubacorp</b><br/><br/> Ludhiana" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    </section>
+
+        <section id="copyright" class="copyright-gk">
+        	<div class="container">
+        		<div class="copyright pull-left">
+        			<p>Copyright 2016 All rights reserved</p>
+        		</div>
+        		<div class="social pull-right">
+        			<ul class="list-inline">
+        				<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        				<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        				<li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        				<li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+        			</ul>
+        		</div>
+        	</div>
+        </section>
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/parallax.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/stepsForm.js"></script>
+<script type="text/javascript" charset="utf-8">
+	$(window).load(function() {
+		$('.flexslider').flexslider({
+			animation: "slide"
+		});
+	});
+	</script>
+    <script>
+            var theForm = document.getElementById( 'theForm' );
+
+            new stepsForm( theForm, {
+                onSubmit : function( form ) {
+                    // hide form
+                    classie.addClass( theForm.querySelector( '.simform-inner' ), 'hide' );
+
+                    /*
+                    form.submit()
+                    or
+                    AJAX request (maybe show loading indicator while we don't have an answer..)
+                    */
+
+                    // let's just simulate something...
+                    var messageEl = theForm.querySelector( '.final-message' );
+                    messageEl.innerHTML = 'Thank you! We\'ll be in touch.';
+                    classie.addClass( messageEl, 'show' );
+                }
+            } );
+        </script>
+</body>
+</html>
